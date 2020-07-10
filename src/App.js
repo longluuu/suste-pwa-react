@@ -17,7 +17,7 @@ class App extends Component {
                 <NavBar />
                 <Hero />     
                 <div className="full-sized-images">
-                    <img src="./images/5edb96a1f826cfa1669b9cc4_benefits.png"/>
+                    <img src="./images/5edb96a1f826cfa1669b9cc4_benefits.png" alt="Could not be found."/>
                 </div>
                 <HowSusteWorks />
                 <Habits />

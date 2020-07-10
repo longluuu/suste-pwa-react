@@ -11,27 +11,27 @@ class Habits extends Component {
                 </div>
                 <section className="habits">
                     <div className="habit-card">
-                        <img className="habit-img" src="./images/clem-onojeghuo-E_MV2qnWGDA-unsplash.jpg" alt="Image not found."/>
+                        <img className="habit-img" src="./images/clem-onojeghuo-E_MV2qnWGDA-unsplash.jpg" alt="Could not be found."/>
                         <p>Place glass of water next to bed before sleep</p>
                     </div>
                     <div className="habit-card">
-                        <img className="habit-img" src="./images/gregory-pappas-rUc9hVE-L-E-unsplash.jpg" alt="Image not found."/>
+                        <img className="habit-img" src="./images/gregory-pappas-rUc9hVE-L-E-unsplash.jpg" alt="Could not be found."/>
                         <p>Sleep in since you're having breakfast later</p>
                     </div>
                     <div className="habit-card">
-                        <img className="habit-img" src="./images/pontus-ohlsson-XNkwPPSjbHg-unsplash.jpg" alt="Image not found."/>
+                        <img className="habit-img" src="./images/pontus-ohlsson-XNkwPPSjbHg-unsplash.jpg" alt="Could not be found."/>
                         <p>Drink water when you first wake up to hydrate</p>
                     </div>
                     <div className="habit-card">
-                        <img className="habit-img" src="./images/nathan-dumlao-c2Y16tC3yO8-unsplash.jpg" alt="Image not found."/>
+                        <img className="habit-img" src="./images/nathan-dumlao-c2Y16tC3yO8-unsplash.jpg" alt="Could not be found."/>
                         <p>Drink water/tea/coffee to ease hunger</p>
                     </div>
                     <div className="habit-card">
-                        <img className="habit-img" src="./images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" alt="Image not found."/>
+                        <img className="habit-img" src="./images/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" alt="Could not be found."/>
                         <p>Develop a feast and fasting approach to eating</p>
                     </div>
                     <div className="habit-card">
-                        <img className="habit-img" src="./images/eating_plan.jpg" alt="Image not found."/>
+                        <img className="habit-img" src="./images/eating_plan.jpg" alt="Could not be found."/>
                         <p>Follow our timings</p>
                     </div>
                 </section>

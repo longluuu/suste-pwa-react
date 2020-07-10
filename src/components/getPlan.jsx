@@ -9,7 +9,7 @@ class GetPlan extends Component {
                     <h1>Whats your path to sustainable health?</h1>
                 </div>
                 <div className="button-text">
-                    <a href="#" className="button">
+                    <a href="." className="button">
                         <button>Get Plan</button>
                     </a>
                     <p>It's completely free and takes 60 seconds</p>
