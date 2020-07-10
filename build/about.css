@@ -1,0 +1,333 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: inherit; */
+    box-sizing: border-box;
+}
+
+/* --------------------------- HERO section --------------------------- */
+
+.box-area {
+    background-color: rgb(0, 131, 163);
+}
+
+body {
+    text-align: left;
+    background-color: white;
+    font-family: sans-serif;
+    /* border: 1px solid blueviolet; */
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+    background: #00000091;
+    width: 100%;
+    z-index: 12;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 60px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+}
+.logo img {
+    width: 120px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+nav {
+    float: right;
+    line-height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    margin: 0 10px;
+    color: #fff;
+    padding-right: 20px;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    padding-top: calc(100px + 5%);
+    padding-left: 12%;
+    max-width: 85%;
+    color: white;
+    display: flex;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.hero h1 {
+    font-size:calc(20px + 1.5vw);
+    color: rgba(255, 255, 255, 0.95);
+}
+
+.hero h5 {
+    font-size: 17px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #fff;
+    opacity: 0.5;
+    padding-bottom: 1rem;
+    
+}
+
+.hero p {
+    font-size:calc(10px + .9vw);
+    padding-left: 2rem;
+    opacity: .75;
+}
+
+
+/* --------------------------- HERO END --------------------------- */
+
+
+/* --------------------------- HABITS END  ---------------------------*/
+
+.team-heading h3 {
+    text-transform: uppercase;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: rgb(99, 99, 99);
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 3rem;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+}
+.team-container {
+    width: 80%;
+    max-width: 45rem;
+    margin: 0 auto;
+    padding: 1.5rem 1.5rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.team img{
+    max-width: 50%;
+    object-fit: cover;
+    height: 300px;
+    width: 300px;
+    float: left;
+    clear: left;
+    margin: auto auto;
+    margin-right: 2rem;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, 0.02);
+}
+.team h1{
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+
+.team h2{
+    /* padding-top: 2rem; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.team p{
+    font-family: sans-serif;
+    padding-bottom: 9rem;
+    text-transform: none;
+}
+
+
+/* --------------------------- PRINCIPLES section --------------------------- */
+
+.principles {
+    max-width: 100%;
+    position: relative;
+    margin-left: 3%;
+    color: rgb(95, 95, 95);
+}
+
+.principles p{
+    padding-top: 5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+
+.principle-cards {
+    padding: 3%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-right: 3%;
+}
+
+.card {
+    background-image: url('./images/canyon.jpg');
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    padding: 12%;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: .8rem;
+}
+
+.principles .principle-cards p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: -5rem;
+    margin-bottom: -2rem;
+}
+
+.principles .principle-cards h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: calc(28px + .8vw);
+    letter-spacing: 0;
+    padding-bottom: 2rem;
+    line-height: calc(28px + .8vw);
+}
+
+.principle-cards h2 {
+    opacity: 0.9;
+}   
+
+/* --------------------------- PRINCIPLES END  ---------------------------*/
+
+
+/* --------------------------- FOOTER section --------------------------- */
+
+.footer {
+    background-color: black;
+    color: white;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    text-align: center;
+}
+
+.footer h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    margin: 0 calc(2rem + 12vw);
+    padding-bottom: 1rem;
+}
+
+.footer p {
+    font-size: 20px;
+    margin: 0 calc(4rem + 18vw);
+
+}
+
+.footer #email-break {
+    margin: 2rem auto;
+    width: 300px;
+    opacity: .9;
+}
+
+#signupEmail {
+    padding: 15px;
+    font-size: 16px;
+    width: 90%;
+    max-width: 300px;
+}
+
+.footer .button {
+    background-color: #4CAF50;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 0.2rem;
+    transform: translate(0,3px);
+    margin-left: 0px;
+}
+
+.footer hr {
+    margin: 5rem 0 1rem 0;
+    opacity: .3;
+    /* margin-bottom: 1rem; */
+}
+
+.footer-logo {
+    float: left;
+    padding-left: 3rem;
+    line-height: 30px;
+}
+
+.footer-logo img {
+    width: 100px;
+    /* padding: 5px; */
+    padding-left: 2rem;
+    padding-top: .6rem;
+}
+
+.footer-nav {
+    float: right;
+    line-height: 60px;
+    padding-right: 3rem;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    margin-right: 1rem;
+    
+    color: #fff;
+    padding-right: 20px;
+}
+
+/* --------------------------- FOOTER section --------------------------- */
